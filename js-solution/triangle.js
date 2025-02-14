@@ -5,7 +5,7 @@ function printLeftTriangle(n) {
     * @param {number} n - The number of rows in the triangle
     * @returns {void}
   */
-  for (let i = 1; i <= 5; i++) {
+  for (let i = 1; i <= n; i++) {
     console.log('*'.repeat(i));
   }
 }
